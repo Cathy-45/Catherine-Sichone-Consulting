@@ -1,6 +1,6 @@
 # Catherine Sichone Consulting Website
 
-![Project Banner]](https://github.com/Cathy-45/Catherine-Sichone-Consulting/blob/8f1019ef703dbb00e6c94ef5ec8edaa6caa06406/README.md)
+![Project Banner](https://github.com/Cathy-45/Catherine-Sichone-Consulting/blob/8f1019ef703dbb00e6c94ef5ec8edaa6caa06406/README.md)
 
 A modern, user-friendly web consulting profile for Catherine Sichone, a software development consultant based in both the United States/Zambia. The website showcases her expertise in full-stack development, system integration, and Agile methodologies, with a sleek design. The site includes a contact form for clients to submit inquiries, powered by a Node.js/Express backend with SQLite for storage and Nodemailer for email notifications to `catherine.sichone@gmail.com`.
 
