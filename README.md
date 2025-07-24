@@ -1,9 +1,10 @@
 # Catherine-Sichone-Consulting
-![Profile image] (https://github.com/Cathy-45/Catherine-Sichone-Consulting/blob/a14f9ef4013c367f09dcf3f34903772e540568e3/IMG_1990.jpeg)
+![Profile image](https://github.com/Cathy-45/Catherine-Sichone-Consulting/blob/a14f9ef4013c367f09dcf3f34903772e540568e3/IMG_1990.jpeg)
 
 
 A modern, user-friendly web consulting profile for Catherine Sichone, a software development consultant based in Lusaka, Zambia. The website showcases her expertise in full-stack development, system integration, and Agile methodologies, with a sleek design inspired by the minimalist and eco-conscious aesthetic of Greta Thunberg’s website (gretathunberg.org). The site includes a contact form for clients to submit inquiries, powered by a Node.js/Express backend with MongoDB for storage and Nodemailer for email notifications to catherine.sichone@gmail.com.
-Table of Contents
+
+##Table of Contents
 Features
 Tech Stack
 Installation
@@ -15,12 +16,13 @@ Contributing
 License
 Contact
 Features
-Modern Design: Minimalist, responsive UI with a Greta Thunberg-inspired color palette (dark green #1A3C34, cream #F5F5F0, muted gray #4A4A4A, accent green #A3E4D7).
+## Modern Design: 
+Minimalist, responsive UI with a Greta Thunberg-inspired color palette (dark green #1A3C34, cream #F5F5F0, muted gray #4A4A4A, accent green #A3E4D7).
 Interactive Contact Form: Clients can submit consulting inquiries or fee questions, stored in MongoDB and emailed to catherine.sichone@gmail.com.
 Backend Functionality: Node.js/Express API with MongoDB for data persistence and Nodemailer for reliable email delivery.
 Responsive Layout: Optimized for mobile and desktop with card-based services and projects sections.
 Smooth Navigation: Anchor links and a clean header for easy access to About, Services, Projects, and Contact sections.
-Tech Stack
+##Tech Stack
 Front-End: HTML, CSS (Inter font, Greta-inspired colors), JavaScript
 Back-End: Node.js, Express.js
 Database: MongoDB (Atlas)
@@ -30,14 +32,14 @@ Installation
 Clone the Repository:
 bash
 
-
+```
 
 git clone https://github.com/<your-username>/catherine-sichone-consulting.git
 cd catherine-sichone-consulting
 Install Dependencies:
 bash
 
-
+```
 
 npm install
 Set Up MongoDB Atlas:
@@ -50,7 +52,7 @@ Configure Environment Variables:
 Create a .env file in the root directory:
 env
 
-
+```
 
 MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/consulting?retryWrites=true&w=majority
 EMAIL_USER=your-email@gmail.com
@@ -60,15 +62,16 @@ Run the Application:
 bash
 
 
-
+```
 npm start
 For development with hot reloading:
 bash
 
-
+```
 
 npm run dev
 Open http://localhost:3000 in a browser.
+```
 Usage
 View the Website: Navigate to http://localhost:3000 to see the consulting profile.
 Test the Form:
